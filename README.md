@@ -1,3 +1,10 @@
+# Descrição do desafio
+
+Aluno: Emílio Augusto de Queiroz Velois
+
+Este código é referente ao desafio 5 da pós-graduação em Arquitetura de Software da XPE que tem como ponto central 
+Projetar, Documentar e Implantar uma API REST, no padrão arquitetural MVC, que exponha um endpoint capaz de realizar um CRUD dos dados. O desafio foi feito com a lniguagem PHP utilizando o framework Laravel e testado no Postman.
+
 # Configuração do ambiente
 
 Com o PHP instalado na máquina faça um clone do repositório
