@@ -3,7 +3,7 @@
 Aluno: Emílio Augusto de Queiroz Velois
 
 Este código é referente ao desafio 5 da pós-graduação em Arquitetura de Software da XPE que tem como ponto central 
-Projetar, Documentar e Implantar uma API REST, no padrão arquitetural MVC, que exponha um endpoint capaz de realizar um CRUD dos dados. O desafio foi feito com a lniguagem PHP utilizando o framework Laravel e testado no Postman, a persistência dos dados foi feita utilizando SQLITE por meio do arquivo database.sqlite presente na pasta database.
+Projetar, Documentar e Implantar uma API REST, no padrão arquitetural MVC, que exponha um endpoint capaz de realizar um CRUD dos dados. O desafio foi feito com a linguagem PHP utilizando o framework Laravel e testado no Postman, a persistência dos dados foi feita utilizando SQLITE por meio do arquivo database.sqlite presente na pasta database.
 
 # Configuração do ambiente
 
