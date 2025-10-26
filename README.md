@@ -2,6 +2,68 @@
 
 Com o PHP instalado na máquina faça um clone do repositório
 
+git clone https://github.com/eng-emilioqueiroz/xpe-challenge-desf5.git
+
+cd xpe-challenge-desf5
+
+composer update
+
+php artisan migrate
+
+cp .env.example .env
+
+php artisan key:generate
+
+php artisan cache:clear
+
+php artisan optimize:clear
+
+php artisan config:clear
+
+php artisan serve --host=localhost --port=8484 --no-reload
+
+abrir http://localhost:8484/
+
+abrir o postman para testar 
+
+CRUD: Criação (Create), Leitura (Read), Atualização (Update) e Exclusão
+(Delete).
+
+Criação (POST)
+
+http://localhost:8484/api/products?name=PC&description=I78GB&price=3999.88&stock=70&code=558asd
+
+Leitura (GET)
+
+http://localhost:8484/api/products/1
+
+Atualização (PUT)
+
+http://localhost:8484/api/products/2?stock=40
+
+Exclusão (DELETE)
+
+http://localhost:8484/api/products/1
+
+Contagem (GET): Endpoint para retornar o número total de registros.
+
+http://localhost:8484/api/products/count
+
+Find All (GET): Endpoint para retornar todos os registros.
+
+http://localhost:8484/api/products
+
+Find By ID: Endpoint para retornar um registro específico com base no
+ID.
+
+http://localhost:8484/api/products/1
+
+Find By Name: Endpoint para retornar registros que correspondam a
+um nome específico.
+
+http://localhost:8484/api/products/search?name=NAME
+
+
 # Arquitetura do software
 
 ![Diagrama da arquitetura do software](/storage/app/public/diagrama.svg "Diagrama")
